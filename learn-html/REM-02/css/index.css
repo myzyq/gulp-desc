@@ -1,0 +1,27 @@
+@media screen and (min-width: 320px) {
+    html{
+        font-size: 21.33px;
+    }
+}
+@media screen and (min-width: 480px) {
+    html{
+        font-size: 32px;
+    }
+}
+@media screen and (min-width: 750px)  {
+    html{
+        font-size: 50px;
+    }
+}
+body{
+    max-width: 750px;
+    margin: 0 auto;
+}
+.top {
+    width: 100%;
+    line-height: 2rem;
+    background-color: pink;
+}
+.top::before{
+    content: "你好";
+}

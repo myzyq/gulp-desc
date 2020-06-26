@@ -1,0 +1,39 @@
+@bgcolor:pink;
+@dvcolor: blue;
+@color: #ccc;
+@font14: 14px;
+html{
+    font-size: 20px;
+}
+body {
+    background-color: @bgcolor;
+}
+div {
+    color: @color;
+    font-size: @font14;
+    width: 20rem;
+    background-color: @dvcolor;
+    a {
+        font-size: @font14;
+    }
+}
+.nav {
+    margin-top: 15px;;
+    background-color: green;
+    width: 18rem;
+    height: 18rem;
+    .logo {
+        color: @bgcolor;
+        &:hover{
+            color: black;
+        }
+        &::after{
+            content: '123123123';
+            color: black;
+        }
+    }
+    &::before{
+        content: '123123123';
+        color: black;
+    }
+}

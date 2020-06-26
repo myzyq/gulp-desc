@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    float: left;
+    width: 50%;
+    height: 100px;
+}
+
+div:first-child {
+    background-color: pink;
+}
+div:nth-child(2) {
+    background-color: blue;
+}

@@ -1,0 +1,8 @@
+<view class="container">
+  <image class="avatar" src="/images/1572071004386.png"></image>
+  <text class="motto">Hello, 橘子罐头</text>
+  <view class="journey-container">
+    <text catchtap="onTabJump" class="journey">开启小程序之旅</text>
+  </view>
+</view>
+

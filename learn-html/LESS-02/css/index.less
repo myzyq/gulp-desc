@@ -1,0 +1,16 @@
+@color: pink;
+@font14: 14px;
+body {
+    background-color: @color;
+
+}
+div{
+    font-size: @font14;
+    &::before{
+        content: "div之前";
+    }
+    &:hover{
+        color: red;
+    }
+}
+

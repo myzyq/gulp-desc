@@ -1,0 +1,35 @@
+html {
+  font-size: 20px;
+}
+body {
+  background-color: pink;
+}
+div {
+  color: #ccc;
+  font-size: 14px;
+  width: 20rem;
+  background-color: blue;
+}
+div a {
+  font-size: 14px;
+}
+.nav {
+  margin-top: 15px;
+  background-color: green;
+  width: 18rem;
+  height: 18rem;
+}
+.nav .logo {
+  color: pink;
+}
+.nav .logo:hover {
+  color: black;
+}
+.nav .logo::after {
+  content: '123123123';
+  color: black;
+}
+.nav::before {
+  content: '123123123';
+  color: black;
+}

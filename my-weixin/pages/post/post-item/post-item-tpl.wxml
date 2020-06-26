@@ -1,0 +1,5 @@
+<template name="postItemTpl">
+  <view>
+    <text wx:for="{{oobj}}" wx:for-item="item" vx:for-index="idx" >{{item.data}}</text>
+  </view>
+</template>

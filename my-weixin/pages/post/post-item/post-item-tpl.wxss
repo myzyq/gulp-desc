@@ -1,0 +1,7 @@
+text{
+  display: block;
+  width: 100%;
+  clear: both;
+  color: red;
+  background-color: red;
+}
